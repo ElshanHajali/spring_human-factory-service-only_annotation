@@ -34,7 +34,7 @@ public class HumanConfig {
 	// create bean disabled human service
 	@Bean
 	public HumanService normalHumanService() {
-		return new DisabledHumanService();
+		return new NormalHumanService();
 	}
 		
 	// create bean and inject disabled human service in it
